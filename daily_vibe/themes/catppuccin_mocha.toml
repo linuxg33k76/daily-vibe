@@ -1,0 +1,28 @@
+name = "Catppuccin Mocha"
+mode = "dark"
+
+[colors]
+window = "#1e1e2e"
+surface = "#181825"
+alt_surface = "#313244"
+text = "#cdd6f4"
+muted = "#a6adc8"
+button = "#313244"
+border = "#45475a"
+accent = "#cba6f7"
+link = "#89b4fa"
+heading = "#f5c2e7"
+code_bg = "#313244"
+quote_bg = "#26263a"
+quote_text = "#f9e2af"
+weekend = "#f38ba8"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#f5c2e7"
+hl_emphasis = "#f2cdcd"
+hl_code = "#a6e3a1"
+hl_link = "#89b4fa"
+hl_image = "#94e2d5"
+hl_list = "#fab387"
+hl_quote = "#f9e2af"
+hl_marker = "#6c7086"

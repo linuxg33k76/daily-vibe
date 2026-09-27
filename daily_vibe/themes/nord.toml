@@ -1,0 +1,28 @@
+name = "Nord"
+mode = "dark"
+
+[colors]
+window = "#2e3440"
+surface = "#272c36"
+alt_surface = "#3b4252"
+text = "#eceff4"
+muted = "#a3adbf"
+button = "#3b4252"
+border = "#4c566a"
+accent = "#88c0d0"
+link = "#81a1c1"
+heading = "#8fbcbb"
+code_bg = "#3b4252"
+quote_bg = "#353c4a"
+quote_text = "#ebcb8b"
+weekend = "#bf616a"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#88c0d0"
+hl_emphasis = "#b48ead"
+hl_code = "#a3be8c"
+hl_link = "#81a1c1"
+hl_image = "#8fbcbb"
+hl_list = "#d08770"
+hl_quote = "#ebcb8b"
+hl_marker = "#616e88"

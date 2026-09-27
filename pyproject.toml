@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daily-vibe"
+version = "0.8.1"
+description = "The Daily Vibe: a day-oriented Markdown journal with plugins - PySide6"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tomlkit>=0.12",
+    "PySide6>=6.6",
+    "Pillow>=10.0",
+    "markdown>=3.5",
+    "platformdirs>=4.0",
+    "tomli-w>=1.0",
+    "keyring>=24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+secrets = ["keyring>=24"]
+trash = ["send2trash>=1.8"]   # "Delete journal" moves folders to the system trash
+
+[project.scripts]
+daily-vibe = "daily_vibe.app:main"
+
+[tool.setuptools.packages.find]
+include = ["daily_vibe*"]
+
+[tool.setuptools.package-data]
+daily_vibe = ["plugins/*.py", "themes/*.toml", "resources/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

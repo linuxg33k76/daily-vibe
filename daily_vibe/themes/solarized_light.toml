@@ -1,0 +1,28 @@
+name = "Solarized Light"
+mode = "light"
+
+[colors]
+window = "#eee8d5"
+surface = "#fdf6e3"
+alt_surface = "#f5efdc"
+text = "#586e75"
+muted = "#93a1a1"
+button = "#e4ddc8"
+border = "#d3cbb7"
+accent = "#268bd2"
+link = "#268bd2"
+heading = "#073642"
+code_bg = "#eee8d5"
+quote_bg = "#f6ecd0"
+quote_text = "#b58900"
+weekend = "#dc322f"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#cb4b16"
+hl_emphasis = "#6c71c4"
+hl_code = "#859900"
+hl_link = "#268bd2"
+hl_image = "#2aa198"
+hl_list = "#d33682"
+hl_quote = "#b58900"
+hl_marker = "#93a1a1"

@@ -1,0 +1,8 @@
+PySide6>=6.6
+Pillow>=10.0
+markdown>=3.5
+platformdirs>=4.0
+tomli-w>=1.0
+tomlkit>=0.12
+pytest>=8
+# optional: send2trash>=1.8  (Journal → Delete moves to the system trash)

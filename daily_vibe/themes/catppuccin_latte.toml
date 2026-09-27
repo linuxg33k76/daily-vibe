@@ -1,0 +1,28 @@
+name = "Catppuccin Latte"
+mode = "light"
+
+[colors]
+window = "#e6e9ef"
+surface = "#eff1f5"
+alt_surface = "#e6e9ef"
+text = "#4c4f69"
+muted = "#6c6f85"
+button = "#dce0e8"
+border = "#bcc0cc"
+accent = "#8839ef"
+link = "#1e66f5"
+heading = "#ea76cb"
+code_bg = "#dce0e8"
+quote_bg = "#f4ead8"
+quote_text = "#df8e1d"
+weekend = "#d20f39"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#ea76cb"
+hl_emphasis = "#dd7878"
+hl_code = "#40a02b"
+hl_link = "#1e66f5"
+hl_image = "#179299"
+hl_list = "#fe640b"
+hl_quote = "#df8e1d"
+hl_marker = "#9ca0b0"

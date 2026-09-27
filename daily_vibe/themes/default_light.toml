@@ -1,0 +1,18 @@
+name = "Default Light"
+mode = "light"
+
+[colors]
+window = "#f3f3f5"
+surface = "#ffffff"
+alt_surface = "#f0f1f4"
+text = "#1f2328"
+muted = "#6b7280"
+button = "#e8e9ed"
+border = "#d0d4db"
+accent = "#2f6fdb"
+link = "#1a5fd0"
+heading = "#1f2a44"
+code_bg = "#f2f3f5"
+quote_bg = "#fff6e5"
+quote_text = "#8a4b00"
+weekend = "#c0392b"

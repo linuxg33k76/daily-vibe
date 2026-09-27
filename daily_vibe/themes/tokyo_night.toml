@@ -1,0 +1,28 @@
+name = "Tokyo Night"
+mode = "dark"
+
+[colors]
+window = "#1a1b26"
+surface = "#16161e"
+alt_surface = "#24283b"
+text = "#c0caf5"
+muted = "#9aa5ce"
+button = "#24283b"
+border = "#3b4261"
+accent = "#7aa2f7"
+link = "#7dcfff"
+heading = "#bb9af7"
+code_bg = "#24283b"
+quote_bg = "#222436"
+quote_text = "#e0af68"
+weekend = "#f7768e"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#bb9af7"
+hl_emphasis = "#f7768e"
+hl_code = "#9ece6a"
+hl_link = "#7dcfff"
+hl_image = "#73daca"
+hl_list = "#ff9e64"
+hl_quote = "#e0af68"
+hl_marker = "#565f89"

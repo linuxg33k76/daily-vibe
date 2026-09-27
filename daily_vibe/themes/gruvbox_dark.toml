@@ -1,0 +1,28 @@
+name = "Gruvbox Dark"
+mode = "dark"
+
+[colors]
+window = "#282828"
+surface = "#1d2021"
+alt_surface = "#32302f"
+text = "#ebdbb2"
+muted = "#a89984"
+button = "#3c3836"
+border = "#504945"
+accent = "#fabd2f"
+link = "#83a598"
+heading = "#fe8019"
+code_bg = "#32302f"
+quote_bg = "#32302f"
+quote_text = "#b8bb26"
+weekend = "#fb4934"
+
+# editor syntax highlighting (optional; falls back to the colors above)
+hl_heading = "#fe8019"
+hl_emphasis = "#d3869b"
+hl_code = "#b8bb26"
+hl_link = "#83a598"
+hl_image = "#8ec07c"
+hl_list = "#fabd2f"
+hl_quote = "#d79921"
+hl_marker = "#7c6f64"
